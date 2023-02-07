@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "TestExo1",
+      "setup": "",
+      "run": "make test-exo1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TestExo2",
+      "setup": "",
+      "run": "make test-exo2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TestExo3",
+      "setup": "",
+      "run": "make test-exo3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TestExo2Bonus",
+      "setup": "",
+      "run": "test -x ./note-bonus.sh && timeout 5 ./note-bonus.sh",
+      "input": "0\n15\n10\n.\n",
+      "output": "Somme = 25(\n|.)*Moyenne = 8.33(\n|.)*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
